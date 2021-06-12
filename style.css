@@ -196,6 +196,16 @@ footer a:hover {
   filter: drop-shadow(16px 16px 20px red) invert(75%);
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
 @media only screen and (max-width: 768px) {
   body {
     max-width: 100%;
@@ -306,22 +316,20 @@ footer a:hover {
   }
 
   .testimonies {
-      padding: 25% 5%;
+    padding: 25% 5%;
   }
 
   .testimon-flexbox {
-      grid-template-columns: auto;
+    grid-template-columns: auto;
   }
 
   .gallery {
-      display: grid;
-      grid-template-columns: 200px 200px;
-      gap: 0;
-      column-width: 0;
-      column-gap: 0;
+    display: grid;
+    grid-template-columns: 200px 200px;
   }
 
   footer {
-      padding: 50px 0;
+    padding: 50px 0;
   }
+
 }
