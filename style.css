@@ -197,8 +197,7 @@ footer a:hover {
 }
 
 .footer-link {
-  font-size: 11px;
-  margin-top: 2%;
+  padding: 10px 20px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -320,7 +319,7 @@ footer a:hover {
 
   .gallery {
     display: grid;
-    grid-template-columns: 200px 200px;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   footer {
