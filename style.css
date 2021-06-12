@@ -196,15 +196,9 @@ footer a:hover {
   filter: drop-shadow(16px 16px 20px red) invert(75%);
 }
 
-.attribution {
+.footer-link {
   font-size: 11px;
-  text-align: center;
   margin-top: 2%;
-  padding: 0 5%;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
 
 @media only screen and (max-width: 768px) {
@@ -332,5 +326,6 @@ footer a:hover {
   footer {
     padding: 50px 0;
   }
+
 
 }
